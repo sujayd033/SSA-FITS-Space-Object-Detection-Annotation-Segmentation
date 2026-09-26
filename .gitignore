@@ -43,12 +43,6 @@ Thumbs.db
 temp/
 tmp/
 
-# Large video files (use GitHub LFS if needed)
-# Uncomment if video files are too large for GitHub
-# 07_Screen_Recording/*.mp4
-# 07_Screen_Recording/*.avi
-# 07_Screen_Recording/*.mov
-
 # Data files (keep structure but ignore large files if needed)
 # Uncomment if you want to ignore processed data
 # 02_Preprocessed_Full_Images/

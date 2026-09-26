@@ -62,12 +62,10 @@ SSA-FITS-Space-Object-Detection-Annotation-Segmentation/
 ├── 🧩 03_Tiles_1024x1024/          # ~700 tiles (1024×1024 pixels)
 ├── 🏷️ 04_Annotations_YOLO_Seg/     # YOLO segmentation annotations
 ├── 🎭 05_Repatched_Masks/          # Full-size reconstructed masks
-├── 💻 06_Code/                     # Python scripts for reproducibility
-│   ├── preprocess.py               # FITS to PNG preprocessing
-│   ├── tile_images.py              # Image tiling with metadata
-│   └── repatch.py                  # Mask reconstruction from tiles
-└── 🎥 07_Screen_Recording/         # Annotation workflow demonstration
-    └── README.md                   # Screen recording documentation
+└── 💻 06_Code/                     # Python scripts for reproducibility
+    ├── preprocess.py               # FITS to PNG preprocessing
+    ├── tile_images.py              # Image tiling with metadata
+    └── repatch.py                  # Mask reconstruction from tiles
 ```
 
 ---
@@ -176,53 +174,6 @@ python 06_Code/repatch.py
       </td>
     </tr>
   </table>
-
-</div>
-
----
-
-## 🎥 Annotation Workflow
-
-<div align="center">
-
-  <!-- Screen Recording Section -->
-  <h3>📹 Roboflow Annotation Workflow</h3>
-
-  <p>
-    <a href="07_Screen_Recording/README.md">
-      <img src="https://img.shields.io/badge/📹-View_Screen_Recording-red?style=for-the-badge" alt="Screen Recording">
-    </a>
-  </p>
-
-  <p>
-    <i>Detailed screen recording demonstrating the complete annotation workflow using Roboflow with SAM 3</i>
-  </p>
-
-  <table>
-    <tr>
-      <td align="center">
-        <b>🛠️ Tool</b><br>
-        Roboflow + SAM 3
-      </td>
-      <td align="center">
-        <b>📊 Dataset</b><br>
-        700 tiles
-      </td>
-      <td align="center">
-        <b>⏱️ Time</b><br>
-        ~2 hours
-      </td>
-      <td align="center">
-        <b>✅ Accuracy</b><br>
-        100% validation
-      </td>
-    </tr>
-  </table>
-
-  <p>
-    <b>📝 Note:</b> The screen recording will be added to the <code>07_Screen_Recording/</code> folder once recorded.
-    See the <a href="07_Screen_Recording/README.md">Screen Recording README</a> for recording instructions.
-  </p>
 
 </div>
 
