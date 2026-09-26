@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.fits
+*.log
+temp/
+tmp/
+
+# Data files (keep structure but ignore large files if needed)
+# Uncomment if you want to ignore processed data
+# 02_Preprocessed_Full_Images/
+# 03_Tiles_1024x1024/
+# 04_Annotations_YOLO_Seg/
+# 05_Repatched_Masks/
